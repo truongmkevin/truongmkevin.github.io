@@ -1,1 +1,15 @@
 /*This is my CSS Start*/
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: url(http://www.awwcute.org/wp-content/uploads/2013/03/WKIHo7t.jpg);
+
+  -webkit-background-size: auto, auto;
+  -moz-background-size: auto, auto;
+  -o-background-size: auto, auto;
+  background-size: auto, auto;
+}
+
+#title {
+  color: white;
+  position: center;
+}
