@@ -11,5 +11,8 @@ body {
 
 #title {
   color: white;
-  position: center;
+}
+
+#main-quote {
+  color: white;
 }
