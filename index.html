@@ -1,16 +1,423 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Kevin Truong</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+<html lang="en">
+	<head>
 
-<h1 id="title"><center>This is the start of my personal page.</center></h1>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="content-script-type" content="text/javascript">
+		<meta http-equiv="content-style-type" content="text/css">
+		<meta http-equiv="content-language" content="nl">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Kevin Truong">
+		<meta name="description" content="Kevin Truong, an engineer / creative programmer.">
+		<meta name="keywords" content="Kevin Truong, Programmer, Web developer, Interactive CV, Interactive Resume, CV, Resume, Electrical Engineer, Rails Developer">
+		<meta name="robots" content="index, follow">
+		<meta name="revisit-after" content="14 days">
 
-<br><br>
+		<title>Kevin Truong - My Resume</title>
 
-<h2 id="main-quote"><center><em>You can lose all your money chasing women, but you'll never lose all the women chasing money.</em></center></h2>
+		<!-- Bootstrap core CSS -->
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/elevator.js"></script>
+
+		<link href="./style/css" rel="stylesheet" type="text/css">
+		<!-- <link href="./style/bootstrap.min.css" rel="stylesheet"> -->
+		<link href="./style/style.css" rel="stylesheet">
+    <!-- <link href="./style/elevatorstyle.css" rel="stylesheet"> -->
+
+		<!-- <link rel="shortcut icon" href="http://www.kevin-truong.com/favicon.ico" type="image/x-icon"> -->
+		<!-- <link rel="icon" href="http://www.kevin-truong.com/favicon.ico" type="image/x-icon"> -->
+
+	<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+	.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+	}
+
+	.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+	}
+
+	</style>
+
+	</head>
+
+	<body data-spy="scroll" data-target="#navbar-example" cz-shortcut-listen="true" class="fixed">
+
+		<div id="top" class="jumbotron" data-position="center center" style="height: 881px;">
+			<div class="container">
+				<h1>Kevin Truong</h1>
+				<p class="lead">My Resume</p>
+			</div>
+
+			<div class="overlay"></div>
+
+			<a href="http://www.kevin-truong.com/#profile" class="scroll-down">
+				<span class="glyphicon glyphicon-chevron-down"></span>
+			</a>
+		</div>
+
+		<nav class="navbar navbar-default" id="navbar-example" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="http://www.kevin-truong.com/#profile">Profile</a></li>
+					<li class=""><a href="http://www.kevin-truong.com/#experiences">Experiences</a></li>
+					<li class=""><a href="http://www.kevin-truong.com/#abilities">Abilities</a></li>
+					<li class=""><a href="http://www.kevin-truong.com/#contact">Contact</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</nav>
+
+		<div class="background-white">
+			<div id="profile" class="container">
+				<h2>Profile</h2>
+				<p class="lead">I'm a web developer/engineer.</p>
+
+				<hr>
+
+				<div class="row">
+					<div class="col-md-4">
+						<h3>About me</h3>
+
+            <p>I am a problem solver. I get absorbed in figuring things out, how they work, and how to make them better. Coding is where I get my <em>'high.'</em> This means I strive to deliver great products. I used these skills in my previous electrical engineering positions, and now ready to combine those skills into the web development world.</p>
+					</div>
+					<div class="col-md-4 text-center">
+						<img class="profile-picture" src="./images/kevin_truong.png" alt="Kevin Truong" width="246" height="246">
+					</div>
+
+					<div class="col-md-4">
+						<h3>Details</h3>
+						<p>
+						<strong>Name:</strong><br>
+						Kevin Truong<br>
+						<strong>Age:</strong><br>
+						25 years<br>
+						<strong>Location:</strong><br>
+						New Orleans, Louisiana, United States</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="experiences" class="container">
+			<h2>Experiences</h2>
+			<hr>
+
+			<h3>Education</h3>
+
+			<div class="experiences">
+
+        <div class="experience row">
+          <div class="col-md-4">
+            <h4>Tech Talent South</h4>
+            <h4>New Orleans, LA</h4>
+            <p class="experience-period">Graduated Spring 2015</p>
+          </div>
+          <div class="col-md-8">
+            <p>
+            <strong>Alumni of Full-Time Cohort</strong>
+            Tech Talent South is an eight week long code immersion program, voted one of the best in the south. The topics covered were HTML5/CSS3, Bootstrap, JavaScript, Ruby on Rails, Git, AJAX, Heroku, APIs, and overall web application development. I created many projects utilizing the tools and techniques taught by professionals in the industry. It was a fantastic experience and I enjoyed being back in a classroom environment learning new things.
+            </p>
+          </div>
+        </div>
+
+				<div class="experience row">
+					<div class="col-md-4">
+						<h4>Louisiana State University A&M</h4>
+            <h4>Baton Rouge, LA</h4>
+						<p class="experience-period">Graduated December 2012</p>
+					</div>
+					<div class="col-md-8">
+						<p>
+						<strong>Bachelors of Science in Electrical Engineering</strong>
+						Where my real programming adventure began. I dabbled in HTML and Java before, but it wasn't until I was given challenging problems to solve in my courses that I developed a deeper understanding of programming. Topics that I learned were C++, Assembly, MATLAB, Excel/VBA, programming microprocessers, programming microcontrollers, GPU programming with CUDA & OpenGL.
+						</p>
+					</div>
+				</div>
+
+        <div class="experience row">
+          <div class="col-md-4">
+            <h4>Louisiana Fundamentals of Engineering Exam</h4>
+            <p class="experience-period">Passed FE/EIT Exam April 2012</p>
+          </div>
+          <div class="col-md-8">
+            <p>
+            <strong>Certified EIT, Engineer in Training</strong>
+            </p>
+          </div>
+        </div>
+
+<hr>
+
+      <h3>Careers</h3>
+
+      <div class="experiences">
+        <div class="experience row">
+          <div class="col-md-4">
+            <a href="http://www.cimation.com" target="_blank"><img class="experience-image-small image-background-black" src="./images/logo-cimation.png"></a>
+            <h4>New Orleans, LA</h4>
+            <p class="experience-period">
+              Jan 2013 - Apr 2015
+            </p>
+          </div>
+          <div class="col-md-8">
+            <p>
+              <strong>Control Systems/Automation Engineer Specialist</strong>
+                Cimation is a control systems, automation, and cybersecurity/IT engineering firm, headquartered in Houston with other offices internationally. I developed and commissioned with a team on one of the company’s biggest projects, a large production platform in the Gulf of Mexico. I worked primarily on UI/UX and HMI for the platform operations, allowing control of the many processes throughout the platform in central locations. Along with that, I programmed PLCs using ladder logic, performed quality control and assurance tests in Agile fashion, worked server side setting up IT/cybersecurity hardware, and worked on integrating the third party systems.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="experiences">
+        <div class="experience row">
+          <div class="col-md-4">
+            <a href="http://http://www.textronsystems.com/businesses/marine-land" target="_blank"><img class="experience-image-small-textron" src="./images/logo-textron.png"></a>
+            <h4>Slidell, LA</h4>
+            <p class="experience-period">
+              Summer 2012
+            </p>
+          </div>
+          <div class="col-md-8">
+            <p>
+              <strong>Marine and Land Systems Electrical Engineer Intern</strong>
+                Textron is an industrial, multidisciplinary conglomerate that includes Bell Helicopter, Cessna Aircraft, and Textron Systems. Textron Marine and Land Systems is a designer and producer of advanced armored vehicles, marine craft, ships, and weapon systems. While there, I assisted with the development phase of one of their recently rewarded contract vehicles. This included researching, testing various components, and part database management.
+            </p>
+          </div>
+        </div>
+      </div>
+
+		</div>
+    </div>
+
+		<div class="background-white">
+			<div id="abilities" class="container">
+				<h2>Abilities</h2>
+
+<hr>
+
+<h3>The Skills I Learned</h3>
+
+<div class="row">
+
+	<div class="col-md-6">
+		<ul class="no-bullets">
+
+
+			<li>
+				<span class="ability-title">HTML5/CSS3</span>
+			</li>
+
+			<li>
+				<span class="ability-title">Bootstrap</span>
+			</li>
+
+      <li>
+        <span class="ability-title">Ruby</span>
+      </li>
+
+      <li>
+        <span class="ability-title">C++</span>
+      </li>
+
+      <li>
+        <span class="ability-title">Java</span>
+      </li>
+
+      <li>
+        <span class="ability-title">Rails Framework</span>
+      </li>
+
+      <li>
+        <span class="ability-title">MySQL</span>
+      </li>
+
+
+		</ul>
+	</div>
+
+	<div class="col-md-6">
+		<ul class="no-bullets">
+
+      <li>
+        <span class="ability-title">Object Oriented Programming</span>
+      </li>
+
+      <li>
+        <span class="ability-title">Heroku</span>
+      </li>
+
+      <li>
+        <span class="ability-title">Wordpress</span>
+      </li>
+
+      <li>
+        <span class="ability-title">Visual Basic for Applications/Excel VBA</span>
+      </li>
+
+      <li>
+        <span class="ability-title">MATLAB</span>
+      </li>
+
+      <li>
+        <span class="ability-title">Microcontrollers (Arduino, Raspberry Pi)</span>
+      </li>
+
+		</ul>
+	</div>
+
+</div>
+
+<div class="text-center project-referal">
+	<p>This resume page is created on GitHub.</p>
+	<a href="https://github.com/truongmkevin/personal-page" class="btn btn-primary" target="_blank">See source code on Github</a>
+</div>
+
+<hr>
+
+<h3>The Tools I Use</h3>
+
+<div class="row">
+
+  <div class="col-md-6">
+    <ul class="no-bullets">
+
+      <li>
+        <span class="ability-title">Sublime Text 3</span>
+      </li>
+
+      <li>
+        <span class="ability-title">cmder (Terminal for Windows)</span>
+      </li>
+
+      <li>
+        <span class="ability-title">FileZilla</span>
+      </li>
+
+      <li>
+        <span class="ability-title">PuTTY</span>
+      </li>
+
+      <li>
+        <span class="ability-title">Chrome + DevTools</span>
+      </li>
+
+      <li>
+        <span class="ability-title">Git</span>
+      </li>
+
+    </ul>
+  </div>
+
+  <div class="col-md-6">
+    <ul class="no-bullets">
+
+      <li>
+        <span class="ability-title">Windows OS</span>
+      </li>
+
+      <li>
+        <span class="ability-title">Linux (Ubuntu, Mint)</span>
+      </li>
+
+      <li>
+        <span class="ability-title">Vagrant</span>
+      </li>
+
+      <li>
+        <span class="ability-title">WAMP</span>
+      </li>
+
+      <li>
+        <span class="ability-title">Paint.NET</span>
+      </li>
+
+      <li>
+        <span class="ability-title">GIMP</span>
+      </li>
+
+    </ul>
+  </div>
+
+	</div>
+  </div>
+
+  </div>
+
+</div>
+
+		</div>
+
+		<div class="background-gray">
+			<div id="contact" class="container">
+      <div class="text-center">
+				<h2>Contact</h2>
+
+  <hr>
+
+  <h3>Thanks for visiting my site. <br>
+      If you'd like to contact me, shoot a message to<br><br>
+      me@kevin-truong.com
+  </h3>
+
+  <hr>
+
+<div class="footer">
+  <div class="do-the-thing">
+    <div class="elevator">
+      <div class="elevator-button">
+        <h4>Would you like to take an elevator back to the top?<br><br>
+            Turn up/down your volume before you do!<h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="modal fade" id="upgrade-dialog" tabindex="-1" role="dialog" aria-hidden="true">
+  	<div class="modal-dialog">
+  		<div class="modal-content">
+  			<div class="modal-header">
+  				<h4 class="modal-title">Your browser is out of date</h4>
+  			</div>
+  			<div class="modal-body">
+  				<p>Seems like your browser doesn't support this. For best results, view my webpage on a more modern web browser.</p>
+  			</div>
+  		</div><!-- /.modal-content -->
+  	</div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/script.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+    window.onload = function() {
+    var elementButton = document.querySelector('.elevator');
+    var elevator = new Elevator({
+      element: elementButton,
+      mainAudio: './mp3/elevator.mp3',
+      endAudio: './mp3/ding.mp3'
+     });
+    }
+  </script>
 
 </body>
 </html>
