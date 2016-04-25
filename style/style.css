@@ -392,3 +392,13 @@ figure.effect:hover p {
   padding: 3px 5px 5px 5px;
   background-color: black;
 }
+
+.experience-image-ktds {
+  height: 50px;
+  width: 175px;
+}
+
+.experience-image-autobrain {
+  height: 46px;
+  width: 175px;
+}
